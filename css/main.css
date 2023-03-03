@@ -3690,7 +3690,7 @@ body.light .home-page-logo a:hover {
 }
 /* line 233, ../sass/cospo/elements/_pages.scss */
 .home-page-logo img {
-  height: 50px;
+  height: 100px;
   width: auto;
 }
 /* line 239, ../sass/cospo/elements/_pages.scss */
@@ -9595,18 +9595,66 @@ body.sport section.home-page .background-element {
   background-position: bottom right;
   background-size: contain;
 }
+
+body.sport section.about-page .background-element1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 80%;
+  background-image: url("../img/sport/sport-element-bg2.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+}
+
+body.sport section.services-page .background-element2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 80%;
+  background-image: url("../img/sport/sport-element-bg3.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+}
+
+body.sport section.works-page .background-element3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 80%;
+  background-image: url("../img/sport/sport-element-bg4.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+}
+
+body.sport section.contact-page .background-element4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 80%;
+  background-image: url("../img/sport/sport-element-bg5.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+}
 /* line 60, ../sass/cospo/demos/_sport-shop.scss */
 body.sport .navigation button.navigation-btn[data-action="go-next-page"] svg path, body.sport .navigation button[data-action="go-next-page"].navigation-btn--show-message svg path {
-  fill: #496bcc;
+  fill: #142423;
 }
 /* line 66, ../sass/cospo/demos/_sport-shop.scss */
 body.sport .navigation.open,
 body.sport .navigation .scales {
-  background-color: #496bcc !important;
+  background-color: #142423 !important;
 }
 /* line 72, ../sass/cospo/demos/_sport-shop.scss */
 body.sport .navigation .widget-overlay-bottom, body.sport .navigation .widget-overlay-top {
-  background-color: #5375d9 !important;
+  background-color: #142423 !important;
 }
 /* line 79, ../sass/cospo/demos/_sport-shop.scss */
 body.sport .navigation .widget-lang-overlay {
